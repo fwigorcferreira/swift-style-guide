@@ -45,8 +45,7 @@ Our overarching goals are clarity, consistency and brevity, in that order.
 * [Semicolons](#semicolons)
 * [Parentheses](#parentheses)
 * [Organization and Bundle Identifier](#organization-and-bundle-identifier)
-* [Copyright Statement](#copyright-statement)
-* [Smiley Face](#smiley-face)
+* [Creating a project](#creating-a-project)
 * [References](#references)
 
 
@@ -908,6 +907,10 @@ let playerMark = (player == current ? "X" : "O")
 Where an Xcode project is involved, the organization should be set to `Future Workshops` and the Bundle Identifier set to `com.futureworkshops.ProjectName` where `ProjectName` is the name of the project.
 
 ![Xcode Project settings](screens/project_settings.png)
+
+## Creating a project
+
+Future Workshops's CI, and other tools rely on a set of configurations in the Xcode project. To match the necessary requirements for all the projects, it was created a tool to generate news projects: [FWToolkit](http://kb.office.fwn/posts/create-an-fw-xcode-project/). It is a command like script that enables the developer to generate a new environment by simply running: `fwt proj new [language] [ProjectName] [ClassPrefix]`. The `ClassPrefix` is not used on Swift files, but it is important to properly configure new Objetive-C files.
 
 ## References
 
