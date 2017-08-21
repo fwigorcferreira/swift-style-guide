@@ -164,16 +164,16 @@ func swap<Thing>(_ a: inout Thing, _ b: inout Thing)
 
 ### Language
 
-Use UK English spelling to match Apple's API.
+Use US English spelling to match Apple's API.
 
 **Preferred:**
 ```swift
-let colour = "red"
+let color = "red"
 ```
 
 **Not Preferred:**
 ```swift
-let color = "red"
+let colour = "red"
 ```
 
 ## Code Organization
@@ -280,12 +280,12 @@ else {
 
 * There should be exactly one blank line between methods to aid in visual clarity and organization. Whitespace within methods should separate functionality, but having too many sections in a method often means you should refactor into several methods.
 
-* Colons always have no space on the left and one space on the right. Exceptions are the ternary operator `? :`, dictionaries `["A" : 1.2]`, empty dictionary `[:]` and `#selector` syntax for unnamed parameters `(_:)`.
+* Colons always have no space on the left and one space on the right. Exceptions are the ternary operator `? :`, dictionary type declaration `[String : CGFloat]`, empty dictionary `[:]` and `#selector` syntax for unnamed parameters `(_:)`.
 
 **Preferred:**
 ```swift
 class TestDatabase: Database {
-  var data: [String : CGFloat] = ["A" : 1.2, "B" : 3.2]
+  var data: [String : CGFloat] = ["A": 1.2, "B": 3.2]
 }
 ```
 
