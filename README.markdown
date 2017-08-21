@@ -914,6 +914,7 @@ Future Workshops's CI, and other tools rely on a set of configurations in the Xc
 
 ## References
 
+* [FW Knowledge Base](http://kb.office.fwn/)
 * [The Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)
 * [The Swift Programming Language](https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/swift_programming_language/index.html)
 * [Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html)
