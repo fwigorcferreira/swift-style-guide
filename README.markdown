@@ -164,16 +164,16 @@ func swap<Thing>(_ a: inout Thing, _ b: inout Thing)
 
 ### Language
 
-Use US English spelling to match Apple's API.
+Use UK English spelling to match Apple's API.
 
 **Preferred:**
 ```swift
-let color = "red"
+let colour = "red"
 ```
 
 **Not Preferred:**
 ```swift
-let colour = "red"
+let color = "red"
 ```
 
 ## Code Organization
